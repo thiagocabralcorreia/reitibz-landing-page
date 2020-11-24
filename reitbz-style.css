@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;padding: 0; border:none; outline:none; list-style-type:none;
+}
+
+body {
+    font-family: Myriad Pro, Myriad Pro IE, 'Myriad', "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.top {
+    background-image: url(../reitbz/images/brazil.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-list {
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    height: 21px;
+    font-size: 13px;
+}
+
+.text-list {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: solid 2px;
+}
+
+.text-sto {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+}
+
+.banner {
+    max-width: 40%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.title {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    border-bottom: solid width;
+}
+
+.banner-element {
+    width: 90px;
+    height: 5px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    padding-top: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: block;
+}
+
+.description-bottom {
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+
+.reitbz-banner-link {
+    background-color: #00904C;
+    color: #fff;
+    padding: 10px 30px;
+    border-width: 0;
+    border-radius: 1.875rem;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .5s all;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.logo-list {
+    cursor: pointer;
+    width: 130px;
+    height: auto;
+    margin: 10px;
+}
+
+.background-blockchain {
+    background-color: #F5F5F5;
+}
+
+#blockchain {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: #212529;
+    text-align: left;
+    display: flex;
+    max-width: 100%;
+}
+.box {
+    box-sizing: border-box;
+    max-width: 41.666667%;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 50px;
+}
+
+.description-box {
+    line-height: 1.5;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.box-icons {
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+
+.blockchain-item {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blockchain-text {
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blockchain-icon {
+    max-width: 75px;
+}
