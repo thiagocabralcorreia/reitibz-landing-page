@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Myriad Pro, Myriad Pro IE, 'Myriad', "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', "Open Sans", sans-serif, Arial, Helvetica;
     font-weight: 300;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 .banner {
-    max-width: 40%;
+    max-width: 600px;
     text-align: center;
     align-items: center;
     margin: 0 auto;
@@ -151,15 +151,24 @@ p {
 
 .box-icons {
     box-sizing: border-box;
-    padding-right: 50px;
 }
 
 
-.blockchain-item {
+.blockchain-line {
     display: flex;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.blockchain-line-box {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 500px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .blockchain-text {
@@ -170,4 +179,77 @@ p {
 
 .blockchain-icon {
     max-width: 75px;
+}
+
+#the-offer {
+    background-image: url(../reitbz/images/the-offer-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+}
+
+#the-offer-title {
+    color: white;
+    text-align: center;
+    text-shadow: 0.125rem 0.125rem black;
+    padding-bottom: 5vw;
+    padding-top: 3vw;
+    font-size: 3rem;
+}
+
+.the-offer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: baseline;
+
+}
+
+.the-offer-column {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.the-offer-circle {
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-title {
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 0.9
+}
+
+.circle-text {
+    font-size: 1.15rem;
+    line-height: 1;
+}
+
+.the-offer-text {
+    color: white;
+    text-shadow: 0.125rem 0.125rem black;
+    font-size: 1.075rem;
+    text-align: center;
+    padding-top: 1rem;
+    line-height: 0.5;
+
 }
