@@ -253,3 +253,25 @@ p {
     line-height: 0.5;
 
 }
+
+.blue-title {
+    text-align: center;
+    font-weight: bold;
+    color: #002856;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 2.75rem;
+}
+
+.intro-image {
+    max-width: 37%;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #696767;
+    align-items: center;
+}
